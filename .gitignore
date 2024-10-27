@@ -1,0 +1,7 @@
+!backups
+backups/*
+!backups/.gitkeep
+
+!cache
+cache/*
+!cache/.gitkeep
