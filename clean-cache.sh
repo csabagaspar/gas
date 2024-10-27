@@ -11,8 +11,10 @@ CACHE=$CURRENT_ABSOLUTE_DIR/cache
 for CORE in "${RA_CORES[@]}"; do
   rm "$CACHE/${CORE}.so.zip"
 done
-#retroarch ScummVM.zip
 rm "$CACHE/$RA_SCUMMVM_FILE"
+rm "$CACHE/$RA_FINAL_BURN_NEO"
+rm "$CACHE/$RA_MAME"
+
 
 #es-de AppImage
 rm $CACHE/$ES_DE_APP_NAME
@@ -25,3 +27,7 @@ rm $CACHE/$CEMU_APP_NAME
 
 #cemu-graphicPacks
 rm $CACHE/$CEMU_GRAPHIC_PACKS_LATEST
+
+#yuzu
+rm $CACHE/$YUZU_APP_NAME
+rm $CACHE/$YUZU_FIRMWARE_FILE
