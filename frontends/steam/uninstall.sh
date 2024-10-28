@@ -9,6 +9,6 @@ source $CURRENT_ABSOLUTE_DIR/../../vars.env
 
 #rm $STEAM_CONFIG_DIR/shortcuts.vdf
 
-rm -rf $STEAM_CONFIG_DIR/grid
-rm -rf $STEAM_CONTROLLERS_DIR/es-de
+rm -rf "$STEAM_CONFIG_DIR/grid"
+rm -rf "$STEAM_CONTROLLERS_DIR/es-de"
 

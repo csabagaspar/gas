@@ -29,7 +29,6 @@ mkdir -p $HOME/.config/Cemu/controllerProfiles
 cp $CURRENT_ABSOLUTE_DIR/configs/controllerProfiles/*.xml $HOME/.config/Cemu/controllerProfiles
 
 #~/.config/Cemu/settings.xml
-mkdir -p $HOME/.local/Cemu
 cp $CURRENT_ABSOLUTE_DIR/configs/settings.$SYSTEM.xml $HOME/.config/Cemu
 mv $HOME/.config/Cemu/settings.$SYSTEM.xml $HOME/.config/Cemu/settings.xml
 
