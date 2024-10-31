@@ -32,6 +32,12 @@ fi
 if [ ! -f "$CACHE/$PPSSPP_CHEAT_DB_NAME" ]; then
   curl "$PPSSPP_CHEAT_DOWNLOAD_URL" --output "$CACHE/$PPSSPP_CHEAT_DB_NAME"
 fi
+#ppsspp texture packs
+#from https://superostrich.xyz/
+if [ ! -f "$CACHE/ac3d-hd-texture-pack-v.0.9.2b-superostrich.zip" ]; then
+  wget -P "$CACHE" "https://drive.usercontent.google.com/download?id=1zthUs7Cj4ShvEffe-QZMqPACUOlv4KVf&export=download&authuser=0"
+fi
+
 
 #cemu
 if [ ! -f "$CACHE/$CEMU_APP_NAME" ]; then

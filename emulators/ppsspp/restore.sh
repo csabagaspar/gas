@@ -1,0 +1,12 @@
+#!/bin/bash
+
+CURRENT_ABSOLUTE_DIR=$(
+  cd "$(dirname "${BASH_SOURCE[0]}")"
+  pwd -P
+)
+source $CURRENT_ABSOLUTE_DIR/../../vars.env
+PPSSPP_BACKUP=$CURRENT_ABSOLUTE_DIR/../../backups/ppsspp
+
+cp -r $PPSSPP_BACKUP/SAVEDATA $PPSSPP_PSP_DIR/SAVEDATA
+cp -r $PPSSPP_BACKUP/PPSSPP_STATE $PPSSPP_PSP_DIR/PPSSPP_STATE
+cp  $PPSSPP_BACKUP/SYSTEM/ppsspp_retroachievements.dat $PPSSPP_PSP_DIR/SYSTEM/
