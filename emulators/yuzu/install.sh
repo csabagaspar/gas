@@ -7,7 +7,6 @@ CURRENT_ABSOLUTE_DIR=$(
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
 CACHE=$CURRENT_ABSOLUTE_DIR/../../cache
 
-
 #Copy image
 mkdir -p $APPS_DIR
 cp $CACHE/$YUZU_APP_NAME $APPS_DIR

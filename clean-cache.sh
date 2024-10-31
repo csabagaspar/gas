@@ -15,7 +15,6 @@ rm "$CACHE/$RA_SCUMMVM_FILE"
 rm "$CACHE/$RA_FINAL_BURN_NEO"
 rm "$CACHE/$RA_MAME"
 
-
 #es-de AppImage
 rm $CACHE/$ES_DE_APP_NAME
 

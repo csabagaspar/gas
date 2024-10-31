@@ -38,7 +38,6 @@ if [ ! -f "$CACHE/ac3d-hd-texture-pack-v.0.9.2b-superostrich.zip" ]; then
   wget -P "$CACHE" "https://drive.usercontent.google.com/download?id=1zthUs7Cj4ShvEffe-QZMqPACUOlv4KVf&export=download&authuser=0"
 fi
 
-
 #cemu
 if [ ! -f "$CACHE/$CEMU_APP_NAME" ]; then
   wget -P "$CACHE" $CEMU_DONWLOAD_URL
@@ -54,4 +53,3 @@ fi
 if [ ! -f "$CACHE/$YUZU_APP_NAME" ]; then
   wget -P "$CACHE" $YUZU_DOWNLOAD_URL/$YUZU_APP_NAME
 fi
-

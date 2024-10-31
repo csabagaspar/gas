@@ -7,7 +7,6 @@ CURRENT_ABSOLUTE_DIR=$(
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
 CACHE=$CURRENT_ABSOLUTE_DIR/../../cache
 
-
 #Copy image
 mkdir -p $APPS_DIR
 cp $CACHE/$CEMU_APP_NAME $APPS_DIR
@@ -22,7 +21,6 @@ mkdir -p $HOME/.local/share/Cemu/graphicPacks/downloadedGraphicPacks
 cp $CURRENT_ABSOLUTE_DIR/files/keys.txt $HOME/.local/share/Cemu
 unzip -q -o "$CACHE/$CEMU_GRAPHIC_PACKS_LATEST" -d "$HOME/.local/share/Cemu/graphicPacks/downloadedGraphicPacks/"
 
-
 #~/.config/Cemu
 mkdir -p $HOME/.config/Cemu
 mkdir -p $HOME/.config/Cemu/controllerProfiles
@@ -33,4 +31,3 @@ cp $CURRENT_ABSOLUTE_DIR/configs/settings.$SYSTEM.xml $HOME/.config/Cemu
 mv $HOME/.config/Cemu/settings.$SYSTEM.xml $HOME/.config/Cemu/settings.xml
 
 #~/.cache/Cemu
-

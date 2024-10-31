@@ -8,5 +8,5 @@ source $CURRENT_ABSOLUTE_DIR/../../vars.env
 
 RA_BACKUP=$CURRENT_ABSOLUTE_DIR/../../backups/retroarch
 
-cp -r $RA_BACKUP/saves $RA_CONFIG_DIR/saves 
+cp -r $RA_BACKUP/saves $RA_CONFIG_DIR/saves
 cp -r $RA_BACKUP/states $RA_CONFIG_DIR/states

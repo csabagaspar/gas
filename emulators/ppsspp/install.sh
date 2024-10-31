@@ -35,7 +35,7 @@ mv $PPSSPP_PSP_DIR/SYSTEM/ppsspp.$SYSTEM.ini $PPSSPP_PSP_DIR/SYSTEM/ppsspp.ini
 mkdir -p $PPSSPP_PSP_DIR/GAME
 mkdir -p $PPSSPP_PSP_DIR/SAVEDATA
 
-for DLC in `find $ROMS_DIR/psp_dlc/ -name *.zip `; do
+for DLC in $(find $ROMS_DIR/psp_dlc/ -name *.zip); do
   unzip -q -o "$DLC" -d "$PPSSPP_PSP_DIR"
 done
 

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <content>
     <logflag>0</logflag>
     <advanced_ppc_logging>false</advanced_ppc_logging>
-    <mlc_path></mlc_path>
+    <mlc_path />
     <permanent_storage>true</permanent_storage>
     <language>0</language>
     <use_discord_presence>true</use_discord_presence>
@@ -14,7 +14,7 @@
     <gp_download>false</gp_download>
     <macos_disclaimer>false</macos_disclaimer>
     <fullscreen>true</fullscreen>
-    <proxy_server></proxy_server>
+    <proxy_server />
     <disable_screensaver>true</disable_screensaver>
     <console_language>1</console_language>
     <window_position>
@@ -39,7 +39,7 @@
     <show_icon_column>true</show_icon_column>
     <GameList>
         <style>0</style>
-        <order></order>
+        <order />
         <name_width>500</name_width>
         <version_width>60</version_width>
         <dlc_width>50</dlc_width>
@@ -48,13 +48,13 @@
         <region_width>306</region_width>
         <title_id>0</title_id>
     </GameList>
-    <RecentLaunchFiles/>
-    <RecentNFCFiles/>
+    <RecentLaunchFiles />
+    <RecentNFCFiles />
     <GamePaths>
         <Entry>/home/csabagaspar/roms/wiiu</Entry>
     </GamePaths>
-    <GameCache/>
-    <GraphicPack/>
+    <GameCache />
+    <GraphicPack />
     <Graphic>
         <api>1</api>
         <device>8680c49b050000000002000000000000</device>
@@ -96,22 +96,22 @@
         <TVVolume>50</TVVolume>
         <PadVolume>0</PadVolume>
         <InputVolume>50</InputVolume>
-        <TVDevice></TVDevice>
-        <PadDevice></PadDevice>
-        <InputDevice></InputDevice>
+        <TVDevice />
+        <PadDevice />
+        <InputDevice />
     </Audio>
     <Account>
         <PersistentId>2147483649</PersistentId>
         <OnlineEnabled>false</OnlineEnabled>
         <ActiveService>0</ActiveService>
     </Account>
-    <AccountService/>
+    <AccountService />
     <Debug>
         <CrashDumpUnix>0</CrashDumpUnix>
         <GDBPort>1337</GDBPort>
     </Debug>
     <Input>
-        <DSUC host="127.0.0.1" port="26760"/>
+        <DSUC host="127.0.0.1" port="26760" />
     </Input>
     <EmulatedUsbDevices>
         <EmulateSkylanderPortal>false</EmulateSkylanderPortal>

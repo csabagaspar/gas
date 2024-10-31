@@ -35,7 +35,6 @@ cp $CURRENT_ABSOLUTE_DIR/configs/retroarch-core-options.cfg $RA_CONFIG_DIR
 cp $CURRENT_ABSOLUTE_DIR/configs/scummvm.$SYSTEM.ini $RA_SYSTEM_DIR
 mv $RA_SYSTEM_DIR/scummvm.$SYSTEM.ini $RA_SYSTEM_DIR/scummvm.ini
 
-
 #bios
 for SYSTEM in "${RA_SYSTEMS[@]}"; do
   unzip -q -o "$CACHE/$SYSTEM" -d "$RA_SYSTEM_DIR"
@@ -45,7 +44,6 @@ done
 for CORE in "${RA_CORES[@]}"; do
   unzip -q -o "$CACHE/$CORE.so.zip" -d "$RA_CORES_DIR"
 done
-
 
 #mame.ini
 #cp $CURRENT_ABSOLUTE_DIR/configs/mame.$SYSTEM.ini $RA_SYSTEM_DIR/mame/ini
