@@ -35,10 +35,19 @@ cp $CURRENT_ABSOLUTE_DIR/configs/retroarch-core-options.cfg $RA_CONFIG_DIR
 cp $CURRENT_ABSOLUTE_DIR/configs/scummvm.$SYSTEM.ini $RA_SYSTEM_DIR
 mv $RA_SYSTEM_DIR/scummvm.$SYSTEM.ini $RA_SYSTEM_DIR/scummvm.ini
 
-#bios
-for SYSTEM in "${RA_SYSTEMS[@]}"; do
-  unzip -q -o "$CACHE/$SYSTEM" -d "$RA_SYSTEM_DIR"
-done
+#system and bios
+#scummvm
+unzip -q -o "$CACHE/$RA_SCUMMVM_FILE" -d "$RA_SYSTEM_DIR"
+#fbneo
+unzip -q -o "$CACHE/$RA_FBNEO_SYSTEM" -d "$RA_SYSTEM_DIR/fbneo"
+mkdir -p "$RA_CONFIG_DIR/shaders"
+unzip -q -o "$CACHE/$RA_FBNEO_SHADERS" -d "$RA_CONFIG_DIR/shaders/fbneo"
+unzip -q -o "$CURRENT_ABSOLUTE_DIR/files/fbneo-blend.zip" -d "$RA_SYSTEM_DIR/fbneo"
+
+#opera
+unzip -q -o "$CACHE/$RA_OPERA_SYSTEM" -d "$RA_SYSTEM_DIR/opera"
+
+
 
 #cores
 for CORE in "${RA_CORES[@]}"; do

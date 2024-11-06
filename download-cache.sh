@@ -29,28 +29,17 @@ if [ ! -f "$CACHE/$RA_MAME" ]; then
 fi
 
 #fbneo
-if [ ! -f "$CACHE/$RA_FBNEO_BIOS" ]; then
-  wget -O "$CACHE/$RA_FBNEO_BIOS" "$RA_FBNEO_BIOS_DONWLOAD_URL"
-fi
-if [ ! -f "$CACHE/$RA_FBNEO_SAMPLES" ]; then
-  curl -L $RA_FBNEO_SAMPLES_DONWLOAD_URL -o $CACHE/$RA_FBNEO_SAMPLES
+if [ ! -f "$CACHE/$RA_FBNEO_SYSTEM" ]; then
+  curl -L $RA_FBNEO_SYSTEM_DONWLOAD_URL -o $CACHE/$RA_FBNEO_SYSTEM
 fi
 
-if [ ! -f "$CACHE/$RA_FBNEO_CHEATS" ]; then
-  wget -O "$CACHE/$RA_FBNEO_CHEATS" "$RA_FBNEO_CHEATS_DONWLOAD_URL"
-fi
-
-if [ ! -f "$CACHE/$RA_FBNEO_HISTORY" ]; then
-  wget -O "$CACHE/$RA_FBNEO_HISTORY" "$RA_FBNEO_HISTORY_DONWLOAD_URL"
-fi
-
-if [ ! -f "$CACHE/$RA_FBNEO_HISCORE" ]; then
-  wget -O "$CACHE/$RA_FBNEO_HISCORE" "$RA_FBNEO_HISCORE_DONWLOAD_URL"
+if [ ! -f "$CACHE/$RA_FBNEO_SHADERS" ]; then
+  wget -O "$CACHE/$RA_FBNEO_SHADERS" "$RA_FBNEO_SHADERS_DONWLOAD_URL"
 fi
 
 #opera
-if [ ! -f "$CACHE/$RA_OPERA_BIOS" ]; then
-  wget -O "$CACHE/$RA_OPERA_BIOS" "$RA_OPERA_BIOS_DONWLOAD_URL"
+if [ ! -f "$CACHE/$RA_OPERA_SYSTEM" ]; then
+  wget -O "$CACHE/$RA_OPERA_SYSTEM" "$RA_OPERA_SYSTEM_DONWLOAD_URL"
 fi
 
 
