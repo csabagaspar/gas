@@ -20,13 +20,6 @@ if [ ! -f "$CACHE/$RA_SCUMMVM_FILE" ]; then
   curl "$RA_SCUMMVM_DOWNLOAD_URL/$RA_SCUMMVM_FILE" --output "$CACHE/$RA_SCUMMVM_FILE"
 fi
 
-#
-if [ ! -f "$CACHE/$RA_FINAL_BURN_NEO" ]; then
-  wget -P "$CACHE" $RA_SYSTEMS_DOWNLOAD_URL/$RA_FINAL_BURN_NEO
-fi
-if [ ! -f "$CACHE/$RA_MAME" ]; then
-  wget -P "$CACHE" $RA_SYSTEMS_DOWNLOAD_URL/$RA_MAME
-fi
 
 #fbneo
 if [ ! -f "$CACHE/$RA_FBNEO_SYSTEM" ]; then
@@ -40,6 +33,19 @@ fi
 #opera
 if [ ! -f "$CACHE/$RA_OPERA_SYSTEM" ]; then
   wget -O "$CACHE/$RA_OPERA_SYSTEM" "$RA_OPERA_SYSTEM_DONWLOAD_URL"
+fi
+#mame
+if [ ! -f "$CACHE/$RA_MAME2010_CHEAT" ]; then
+  wget -O "$CACHE/$RA_MAME2010_CHEAT" "$RA_MAME2010_CHEAT_DOWNLOAD_URL"
+fi
+if [ ! -f "$CACHE/$RA_MAME2010_HISCORE" ]; then
+  wget -O "$CACHE/$RA_MAME2010_HISCORE" "$RA_MAME2010_HISCORE_DOWNLOAD_URL"
+fi
+if [ ! -f "$CACHE/$RA_MAME2010_HISTORY" ]; then
+  wget -O "$CACHE/$RA_MAME2010_HISTORY" "$RA_MAME2010_HISTORY_DOWNLOAD_URL"
+fi
+if [ ! -f "$CACHE/$RA_MAME2010_CATVER" ]; then
+  wget -O "$CACHE/$RA_MAME2010_CATVER" "$RA_MAME2010_CATVER_DOWNLOAD_URL"
 fi
 
 
