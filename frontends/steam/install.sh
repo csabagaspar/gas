@@ -1,4 +1,5 @@
 #!/bin/bash
+#
 
 CURRENT_ABSOLUTE_DIR=$(
   cd "$(dirname "${BASH_SOURCE[0]}")"
