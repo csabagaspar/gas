@@ -31,12 +31,25 @@ mv $PPSSPP_PSP_DIR/SYSTEM/controls.$SYSTEM.ini $PPSSPP_PSP_DIR/SYSTEM/controls.i
 cp $CURRENT_ABSOLUTE_DIR/configs/ppsspp.$SYSTEM.ini $PPSSPP_PSP_DIR/SYSTEM
 mv $PPSSPP_PSP_DIR/SYSTEM/ppsspp.$SYSTEM.ini $PPSSPP_PSP_DIR/SYSTEM/ppsspp.ini
 
-#dlc
-mkdir -p $PPSSPP_PSP_DIR/GAME
-mkdir -p $PPSSPP_PSP_DIR/SAVEDATA
+#plugins
+#https://www.ppsspp.org/docs/reference/plugins/
+#https://github.com/ThirteenAG/WidescreenFixesPack/releases?q=PPSSPP&expanded=true
 
-for DLC in $(find $ROMS_DIR/psp_dlc/ -name *.zip); do
-  unzip -q -o "$DLC" -d "$PPSSPP_PSP_DIR"
-done
+#dlc
+#to $PPSSPP_PSP_DIR/GAME 
+#to $PPSSPP_PSP_DIR/SAVEDATA 
+#https://cdromance.org/sony-psp-dlc-list-psp-downloadable-content/
 
 #textures
+# to $PPSSPP_PSP_DIR/TEXTURES
+# https://forums.ppsspp.org/forumdisplay.php?fid=36
+
+#shaders
+#to $PPSSPP_PSP_DIR/shaders
+#https://forums.ppsspp.org/showthread.php?tid=6594
+#https://forums.ppsspp.org/showthread.php?tid=6594&pid=55390#pid55390
+#https://forums.ppsspp.org/showthread.php?tid=6594&pid=124441#pid124441
+#https://forums.ppsspp.org/showthread.php?tid=6594&pid=54841#pid54841
+#https://forums.ppsspp.org/showthread.php?tid=6594&pid=112250#pid112250
+#https://buildbot.libretro.com/assets/system/
+
