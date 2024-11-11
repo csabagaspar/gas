@@ -54,6 +54,9 @@ fi
 if [ ! -f "$CACHE/$ES_DE_APP_NAME" ]; then
   curl "$ES_DE_DOWNLOAD_URL" --output "$CACHE/$ES_DE_APP_NAME"
 fi
+if [ ! -f "$CACHE/$ES_DE_THEME" ]; then
+  wget -O "$CACHE/$ES_DE_THEME" "$ES_DE_THEME_DOWNLOAD_URL"
+fi
 
 #===================================================================================
 #ppsspp

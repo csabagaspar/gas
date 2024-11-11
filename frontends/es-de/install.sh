@@ -11,6 +11,7 @@ CACHE=$CURRENT_ABSOLUTE_DIR/../../cache
 mkdir -p $APPS_DIR
 mkdir -p $ES_DE_DIR/settings
 mkdir -p $ES_DE_DIR/custom_systems
+mkdir -p $ES_DE_DIR/themes
 
 #es-de.sh
 cp $CURRENT_ABSOLUTE_DIR/configs/es-de.sh $APPS_DIR
@@ -28,3 +29,7 @@ cp $CURRENT_ABSOLUTE_DIR/configs/es_find_rules.xml $ES_DE_DIR/custom_systems
 
 #es_systems.xml
 cp $CURRENT_ABSOLUTE_DIR/configs/es_systems.xml $ES_DE_DIR/custom_systems
+
+#theme
+unzip -q -o "$CACHE/$ES_DE_THEME" -d "$ES_DE_DIR/themes"
+
