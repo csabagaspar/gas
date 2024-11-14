@@ -210,25 +210,18 @@
         <platform>arcade</platform>
         <theme>arcade</theme>
     </system>
-    <emulator name="CEMU">
-        <rule type="systempath">
-            <entry>cemu</entry>
-            <entry>Cemu</entry>
-        </rule>
-        <rule type="staticpath">
-            <entry>~/apps/Cemu*.AppImage</entry>
-            <entry>~/Applications/Cemu*.AppImage</entry>
-            <entry>~/.local/share/applications/Cemu*.AppImage</entry>
-            <entry>~/.local/bin/Cemu*.AppImage</entry>
-            <entry>~/bin/Cemu*.AppImage</entry>
-            <entry>~/Applications/Cemu/Cemu</entry>
-            <entry>~/.local/share/applications/Cemu/Cemu</entry>
-            <entry>~/.local/bin/Cemu/Cemu</entry>
-            <entry>~/bin/Cemu/Cemu</entry>
-            <entry>/var/lib/flatpak/exports/bin/info.cemu.Cemu</entry>
-            <entry>~/.local/share/flatpak/exports/bin/info.cemu.Cemu</entry>
-        </rule>
-    </emulator>
+    <system>
+        <name>psp</name>
+        <fullname>Sony PlayStation Portable</fullname>
+        <path>%ROMPATH%/psp</path>
+        <extension>.chd .CHD .cso .CSO .elf .ELF .iso .ISO .pbp .PBP .prx .PRX .7z .7Z .zip .ZIP</extension>
+        <command label="PPSSPP (Standalone)">%EMULATOR_PPSSPP% %ROM%</command>
+        <command label="PPSSPP">%EMULATOR_RETROARCH% -L %CORE_RETROARCH%/ppsspp_libretro.so %ROM%</command>
+        <platform>psp</platform>
+        <theme>psp</theme>
+    </system>
+
+
 
 
 </systemList>
