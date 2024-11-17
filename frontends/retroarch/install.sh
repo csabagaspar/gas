@@ -45,8 +45,8 @@ mkdir -p "$RA_CONFIG_DIR/shaders"
 unzip -q -o "$CACHE/$RA_FBNEO_SHADERS" -d "$RA_CONFIG_DIR/shaders/fbneo"
 unzip -q -o "$CURRENT_ABSOLUTE_DIR/files/fbneo-blend.zip" -d "$RA_SYSTEM_DIR/fbneo"
 
-#opera
-unzip -q -o "$CACHE/$RA_OPERA_SYSTEM" -d "$RA_SYSTEM_DIR/opera"
+#opera (should be the system directory)
+unzip -q -o "$CACHE/$RA_OPERA_SYSTEM" -d "$RA_SYSTEM_DIR"
 
 #mame2010
 mkdir -p "$RA_SYSTEM_DIR/mame2010/ini"
