@@ -13,6 +13,9 @@ mkdir -p $ES_DE_DIR/settings
 mkdir -p $ES_DE_DIR/custom_systems
 mkdir -p $ES_DE_DIR/themes
 
+#collections
+cp -r $CURRENT_ABSOLUTE_DIR/configs/collections $ES_DE_DIR/
+
 #es-de.sh
 cp $CURRENT_ABSOLUTE_DIR/configs/es-de.sh $APPS_DIR
 
