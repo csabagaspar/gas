@@ -7,9 +7,9 @@ CURRENT_ABSOLUTE_DIR=$(
 )
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
 
-#controllers
-mkdir -p "$STEAM_CONTROLLERS_DIR/es-de"
-cp -r "$CURRENT_ABSOLUTE_DIR/configs/es-de/." "$STEAM_CONTROLLERS_DIR/es-de"
+#controllers icons
+mkdir -p $STEAM_CONTROLLER_TEMPLATES_DIR
+cp -r "$CURRENT_ABSOLUTE_DIR/configs/controller_base/." $STEAM_CONTROLLER_TEMPLATES_DIR
 
 #controllers icons
 mkdir -p $STEAM_TENFOOT_BINDING_ICONS_DIR
@@ -20,4 +20,5 @@ mkdir -p "$STEAM_CONFIG_DIR/grid"
 cp -r "$CURRENT_ABSOLUTE_DIR/files/grid/." "$STEAM_CONFIG_DIR/grid"
 
 #shortcuts
-cp "$CURRENT_ABSOLUTE_DIR/configs/shortcuts.vdf" "$STEAM_CONFIG_DIR"
+#TODO merge
+#cp "$CURRENT_ABSOLUTE_DIR/configs/shortcuts.vdf" "$STEAM_CONFIG_DIR"
