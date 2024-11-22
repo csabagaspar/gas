@@ -7,4 +7,3 @@ CURRENT_ABSOLUTE_DIR=$(
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
 
 #rm $STEAM_CONFIG_DIR/shortcuts.vdf
-

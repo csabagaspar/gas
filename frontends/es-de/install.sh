@@ -35,4 +35,3 @@ cp $CURRENT_ABSOLUTE_DIR/configs/es_systems.xml $ES_DE_DIR/custom_systems
 
 #theme
 unzip -q -o "$CACHE/$ES_DE_THEME" -d "$ES_DE_DIR/themes"
-

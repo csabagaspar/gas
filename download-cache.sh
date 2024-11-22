@@ -20,7 +20,6 @@ if [ ! -f "$CACHE/$RA_SCUMMVM_FILE" ]; then
   curl "$RA_SCUMMVM_DOWNLOAD_URL/$RA_SCUMMVM_FILE" --output "$CACHE/$RA_SCUMMVM_FILE"
 fi
 
-
 #fbneo
 if [ ! -f "$CACHE/$RA_FBNEO_SYSTEM" ]; then
   curl -L $RA_FBNEO_SYSTEM_DONWLOAD_URL -o $CACHE/$RA_FBNEO_SYSTEM
@@ -90,6 +89,3 @@ fi
 if [ ! -f "$CACHE/$YUZU_MAIN_LATEST" ]; then
   wget -O "$CACHE/$YUZU_MAIN_LATEST" "$YUZU_MAIN_LATEST_DOWNLOAD_URL"
 fi
-
-
-

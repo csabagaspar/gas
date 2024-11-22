@@ -36,8 +36,8 @@ mv $PPSSPP_PSP_DIR/SYSTEM/ppsspp.$SYSTEM.ini $PPSSPP_PSP_DIR/SYSTEM/ppsspp.ini
 #https://github.com/ThirteenAG/WidescreenFixesPack/releases?q=PPSSPP&expanded=true
 
 #dlc
-#to $PPSSPP_PSP_DIR/GAME 
-#to $PPSSPP_PSP_DIR/SAVEDATA 
+#to $PPSSPP_PSP_DIR/GAME
+#to $PPSSPP_PSP_DIR/SAVEDATA
 #https://cdromance.org/sony-psp-dlc-list-psp-downloadable-content/
 
 #textures
@@ -52,4 +52,3 @@ mv $PPSSPP_PSP_DIR/SYSTEM/ppsspp.$SYSTEM.ini $PPSSPP_PSP_DIR/SYSTEM/ppsspp.ini
 #https://forums.ppsspp.org/showthread.php?tid=6594&pid=54841#pid54841
 #https://forums.ppsspp.org/showthread.php?tid=6594&pid=112250#pid112250
 #https://buildbot.libretro.com/assets/system/
-

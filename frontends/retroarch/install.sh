@@ -32,7 +32,6 @@ mv $RA_CONFIG_DIR/retroarch.$SYSTEM.cfg $RA_CONFIG_DIR/retroarch.cfg
 #retroarch-core-options.cfg
 cp $CURRENT_ABSOLUTE_DIR/configs/retroarch-core-options.cfg $RA_CONFIG_DIR
 
-
 #SYSTEM
 #scummvm and scummvm.ini
 unzip -q -o "$CACHE/$RA_SCUMMVM_FILE" -d "$RA_SYSTEM_DIR"
@@ -58,7 +57,6 @@ cp $CACHE/$RA_MAME2010_CHEAT $RA_SYSTEM_DIR/mame2010/cheat.zip
 cp $CACHE/$RA_MAME2010_HISCORE $RA_SYSTEM_DIR/mame2010/hiscore.dat
 cp $CACHE/$RA_MAME2010_HISTORY $RA_SYSTEM_DIR/mame2010/
 cp $CACHE/$RA_MAME2010_CATVER $RA_SYSTEM_DIR/mame2010/
-
 
 #CORE
 for CORE in "${RA_CORES[@]}"; do
