@@ -20,6 +20,6 @@ mkdir -p $HOME/.local/share/duckstation/bios
 unzip $CACHE/$DUCK_BIOS_NAME -d $HOME/.local/share/duckstation/bios
 
 #~/.local/share/duckstation/settings.ini
-#cp $CURRENT_ABSOLUTE_DIR/configs/settings.$SYSTEM.ini $HOME/.local/share/duckstation
-#mv $HOME/.local/share/duckstation/settings.$SYSTEM.ini $HOME/.local/share/duckstation/settings.ini
+cp $CURRENT_ABSOLUTE_DIR/configs/settings.$SYSTEM.ini $HOME/.local/share/duckstation
+mv $HOME/.local/share/duckstation/settings.$SYSTEM.ini $HOME/.local/share/duckstation/settings.ini
 

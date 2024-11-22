@@ -16,3 +16,5 @@ mkdir -p $APPS_DIR
 
 #dolphin.sh
 cp $CURRENT_ABSOLUTE_DIR/configs/dolphin.sh $APPS_DIR
+
+#$DOLPHIN_DIR/

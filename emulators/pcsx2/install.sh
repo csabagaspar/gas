@@ -20,3 +20,7 @@ cp $CURRENT_ABSOLUTE_DIR/configs/pcsx2.sh $APPS_DIR
 #
 mkdir -p $PCSX2_DIR/config/PCSX2/bios
 unzip $CACHE/$PCSX2_BIOS_NAME -d $PCSX2_DIR/config/PCSX2/bios
+
+cp $CURRENT_ABSOLUTE_DIR/configs/PCSX2.$SYSTEM.ini $PCSX2_DIR/configs/PCSX2/inis
+mv $PCSX2/configs/PCSX2/inis/PCSX2.$SYSTEM.ini $PCSX2/configs/PCSX2/inis/PCSX2.ini
+
