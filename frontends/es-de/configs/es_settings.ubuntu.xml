@@ -14,7 +14,7 @@
 <string name="ScraperUsernameScreenScraper" value="" />
 <string name="CollectionCustomGrouping" value="unthemed" />
 <string name="CollectionSystemsAuto" value="" />
-<string name="CollectionSystemsCustom" value="Mega Man,Mortal Kombat" />¬
+<string name="CollectionSystemsCustom" value="Mega Man,Mortal Kombat,Strike" />¬
 <bool name="Scrape3DBoxes" value="true" />
 <bool name="ScrapeBackCovers" value="true" />
 <bool name="ScrapeCovers" value="true" />
