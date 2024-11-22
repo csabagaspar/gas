@@ -6,6 +6,7 @@
 ./emulators/yuzu/uninstall.sh
 ./emulators/ppsspp/uninstall.sh
 ./emulators/cemu/uninstall.sh
+./emulators/duckstation/uninstall.sh
 
 if [[ "$SYSTEM" == "steamdeck" ]]; then
   ./frontends/steam/uninstall.sh

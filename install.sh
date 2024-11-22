@@ -7,6 +7,7 @@
 ./emulators/yuzu/install.sh
 ./emulators/ppsspp/install.sh
 ./emulators/cemu/install.sh
+./emulators/duckstation/install.sh
 
 if [[ "$SYSTEM" == "steamdeck" ]]; then
   ./frontends/steam/install.sh
