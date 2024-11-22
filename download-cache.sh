@@ -97,3 +97,8 @@ fi
 if [ ! -f "$CACHE/$DUCK_BIOS_NAME" ]; then
   wget -O "$CACHE/$DUCK_BIOS_NAME" "$DUCK_BIOS_DOWNLOAD_URL"
 fi
+#===================================================================================
+#pcsx2
+if [ ! -f "$CACHE/$PCSX2_BIOS_NAME" ]; then
+  wget -O "$CACHE/$PCSX2_BIOS_NAME" "$PCSX2_BIOS_DOWNLOAD_URL"
+fi

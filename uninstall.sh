@@ -7,6 +7,8 @@
 ./emulators/ppsspp/uninstall.sh
 ./emulators/cemu/uninstall.sh
 ./emulators/duckstation/uninstall.sh
+./emulators/pcsx2/uninstall.sh
+./emulators/dolphin/uninstall.sh
 
 if [[ "$SYSTEM" == "steamdeck" ]]; then
   ./frontends/steam/uninstall.sh

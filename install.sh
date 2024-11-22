@@ -8,6 +8,8 @@
 ./emulators/ppsspp/install.sh
 ./emulators/cemu/install.sh
 ./emulators/duckstation/install.sh
+./emulators/pcsx2/install.sh
+./emulators/dolphin/install.sh
 
 if [[ "$SYSTEM" == "steamdeck" ]]; then
   ./frontends/steam/install.sh
