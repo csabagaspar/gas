@@ -48,6 +48,9 @@ unzip -q -o "$CURRENT_ABSOLUTE_DIR/files/fbneo-blend.zip" -d "$RA_SYSTEM_DIR/fbn
 #opera (should be the system directory)
 unzip -q -o "$CACHE/$RA_OPERA_SYSTEM" -d "$RA_SYSTEM_DIR"
 
+#mgba (should be the system directory)
+unzip -q -o "$CACHE/$RA_MGBA_SYSTEM" -d "$RA_SYSTEM_DIR"
+
 #mame2010
 mkdir -p "$RA_SYSTEM_DIR/mame2010/ini"
 cp $CURRENT_ABSOLUTE_DIR/configs/mame2010.ini $RA_SYSTEM_DIR/mame2010/ini/mame.ini

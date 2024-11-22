@@ -48,6 +48,10 @@ if [ ! -f "$CACHE/$RA_MAME2010_CATVER" ]; then
   wget -O "$CACHE/$RA_MAME2010_CATVER" "$RA_MAME2010_CATVER_DOWNLOAD_URL"
 fi
 
+#mgba
+if [ ! -f "$CACHE/$RA_MGBA_SYSTEM" ]; then
+  wget -O "$CACHE/$RA_MGBA_SYSTEM" "$RA_MGBA_SYSTEM_DONWLOAD_URL"
+fi
 
 #===================================================================================
 #es-de
