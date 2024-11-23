@@ -13,3 +13,4 @@ mkdir -p $ES_DE_BACKUP/
 
 cp -r $ES_DE_DIR/downloaded_media $ES_DE_BACKUP/downloaded_media
 cp -r $ES_DE_DIR/gamelists $ES_DE_BACKUP/gamelists
+cp -r $ES_DE_DIR/collections $ES_DE_BACKUP/collections

@@ -17,10 +17,4 @@
             <entry>~/apps/Cemu*.appimage</entry>
         </rule>
     </emulator>
-    <emulator name="DUCKSTATION">
-        <rule type="staticpath">
-            <entry>~/apps/DuckStation*.AppImage</entry>
-            <entry>~/apps/DuckStation*.appimage</entry>
-        </rule>
-    </emulator>
 </ruleList>

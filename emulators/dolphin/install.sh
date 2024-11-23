@@ -17,4 +17,11 @@ mkdir -p $APPS_DIR
 #dolphin.sh
 cp $CURRENT_ABSOLUTE_DIR/configs/dolphin.sh $APPS_DIR
 
-#$DOLPHIN_DIR/
+#
+mkdir -p "$DOLPHIN_DIR/config/dolphin-emu"
+cp -r "$CURRENT_ABSOLUTE_DIR/configs/dolphin-emu/." "$DOLPHIN_DIR/config/dolphin-emu"
+
+#
+cp $CURRENT_ABSOLUTE_DIR/configs/Dolphin.$SYSTEM.ini $DOLPHIN_DIR/config/dolphin-emu
+mv $DOLPHIN_DIR/config/dolphin-emu/Dolphin.$SYSTEM.ini $DOLPHIN_DIR/config/dolphin-emu/Dolphin.ini
+

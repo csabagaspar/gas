@@ -8,18 +8,16 @@ source $CURRENT_ABSOLUTE_DIR/../../vars.env
 CACHE=$CURRENT_ABSOLUTE_DIR/../../cache
 
 #Copy image
-mkdir -p $APPS_DIR
-cp $CACHE/$DUCK_APP_NAME $APPS_DIR
-chmod a+x $APPS_DIR/$DUCK_APP_NAME
+flatpak install --user flathub org.duckstation.DuckStation
+flatpak update --user org.duckstation.DuckStation
 
 #duck.sh
+mkdir -p $APPS_DIR
 cp $CURRENT_ABSOLUTE_DIR/configs/duck.sh $APPS_DIR
 
-#~/.local/share/duckstation/bios
-mkdir -p $HOME/.local/share/duckstation/bios
-unzip $CACHE/$DUCK_BIOS_NAME -d $HOME/.local/share/duckstation/bios
+mkdir -p $DUCK_DIR/config/duckstation/bios
+unzip $CACHE/$DUCK_BIOS_NAME -d $DUCK_DIR/config/duckstation/bios
 
-#~/.local/share/duckstation/settings.ini
-cp $CURRENT_ABSOLUTE_DIR/configs/settings.$SYSTEM.ini $HOME/.local/share/duckstation
-mv $HOME/.local/share/duckstation/settings.$SYSTEM.ini $HOME/.local/share/duckstation/settings.ini
+cp $CURRENT_ABSOLUTE_DIR/configs/settings.$SYSTEM.ini $DUCK_DIR/config/duckstation
+mv $DUCK_DIR/config/duckstation/settings.$SYSTEM.ini $DUCK_DIR/config/duckstation/settings.ini
 
