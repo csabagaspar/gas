@@ -6,10 +6,11 @@ CURRENT_ABSOLUTE_DIR=$(
 )
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
 
-RA_BACKUP=$CURRENT_ABSOLUTE_DIR/../../backups/retroarch
 
-rm -rf $RA_BACKUP
-mkdir -p $RA_BACKUP
+rm -rf $BACKUPS_DIR/retroarch
+mkdir -p $BACKUPS_DIR/retroarch
 
-cp -r $RA_CONFIG_DIR/saves $RA_BACKUP/saves
-cp -r $RA_CONFIG_DIR/states $RA_BACKUP/states
+cp -r "$RA_CONFIG_DIR/saves/." $BACKUPS_DIR/retroarch/saves
+cp -r "$RA_CONFIG_DIR/states/." $BACKUPS_DIR/retroarch/states
+cp $RA_CONFIG_DIR/retroarch.cfg $BACKUPS_DIR/retroarch
+cp $RA_CONFIG_DIR/retroarch-core-options.cfg $BACKUPS_DIR/retroarch
