@@ -59,6 +59,12 @@ cp $CACHE/$RA_MAME2010_HISCORE $RA_SYSTEM_DIR/mame2010/hiscore.dat
 cp $CACHE/$RA_MAME2010_HISTORY $RA_SYSTEM_DIR/mame2010/
 cp $CACHE/$RA_MAME2010_CATVER $RA_SYSTEM_DIR/mame2010/
 
+#ep128emu
+mkdir -p $RA_SYSTEM_DIR/ep128emu/rom
+mkdir -p $RA_SYSTEM_DIR/ep128emu/config
+unzip -q -o "$CACHE/$RA_EP128EMU_SYSTEM" -d "$RA_SYSTEM_DIR/ep128emu/rom"
+cp $CURRENT_ABSOLUTE_DIR/configs/tvc.ep128cfg $RA_SYSTEM_DIR/ep128emu/config
+
 #CORE
 for CORE in "${RA_CORES[@]}"; do
   unzip -q -o "$CACHE/$CORE.so.zip" -d "$RA_CORES_DIR"

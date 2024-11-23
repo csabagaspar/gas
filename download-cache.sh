@@ -52,6 +52,11 @@ if [ ! -f "$CACHE/$RA_MGBA_SYSTEM" ]; then
   wget -O "$CACHE/$RA_MGBA_SYSTEM" "$RA_MGBA_SYSTEM_DONWLOAD_URL"
 fi
 
+#ep128emu
+if [ ! -f "$CACHE/$RA_EP128EMU_SYSTEM" ]; then
+  wget -O "$CACHE/$RA_EP128EMU_SYSTEM" "$RA_EP128EMU_SYSTEM_DOWNLOAD_URL"
+fi
+
 #===================================================================================
 #es-de
 if [ ! -f "$CACHE/$ES_DE_APP_NAME" ]; then
@@ -99,3 +104,4 @@ fi
 if [ ! -f "$CACHE/$PCSX2_BIOS_NAME" ]; then
   wget -O "$CACHE/$PCSX2_BIOS_NAME" "$PCSX2_BIOS_DOWNLOAD_URL"
 fi
+
