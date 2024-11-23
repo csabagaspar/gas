@@ -4,3 +4,6 @@
 ./frontends/es-de/backup.sh
 
 ./emulators/ppsspp/backup.sh
+./emulators/pcsx2/backup.sh
+./emulators/duckstation/backup.sh
+./emulators/dolphin/backup.sh

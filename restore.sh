@@ -4,3 +4,6 @@
 ./frontends/es-de/restore.sh
 
 ./emulators/ppsspp/restore.sh
+./emulators/pcsx2/restore.sh
+./emulators/duckstation/restore.sh
+./emulators/dolphin/restore.sh
