@@ -14,6 +14,7 @@ flatpak install --user flathub org.libretro.RetroArch
 flatpak update --user org.libretro.RetroArch
 
 #dirs
+mkdir -p $APPS_DIR
 mkdir -p $RA_CONFIG_DIR
 mkdir -p $RA_CORES_DIR
 mkdir -p $RA_SYSTEM_DIR
