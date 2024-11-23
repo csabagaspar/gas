@@ -5,15 +5,18 @@ CURRENT_ABSOLUTE_DIR=$(
   pwd -P
 )
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
-PPSSPP_BACKUP=$CURRENT_ABSOLUTE_DIR/../../backups/ppsspp
 
-rm -rf $PPSSPP_BACKUP/
+BACKUPS=$CURRENT_ABSOLUTE_DIR/../../backups
 
-mkdir -p $PPSSPP_BACKUP/
-mkdir -p $PPSSPP_BACKUP/SAVEDATA
-mkdir -p $PPSSPP_BACKUP/PPSSPP_STATE
-mkdir -p $PPSSPP_BACKUP/SYSTEM
+rm -rf $BACKUPS/ppsspp
 
-cp -r $PPSSPP_PSP_DIR/SAVEDATA $PPSSPP_BACKUP
-cp -r $PPSSPP_PSP_DIR/PPSSPP_STATE $PPSSPP_BACKUP
-cp $PPSSPP_PSP_DIR/SYSTEM/ppsspp_retroachievements.dat $PPSSPP_BACKUP/SYSTEM/ppsspp_retroachievements.dat
+mkdir -p $BACKUPS/ppsspp
+#mkdir -p $BACKUPS/ppsspp/SAVEDATA
+#mkdir -p $BACKUPS/ppsspp/PPSSPP_STATE
+
+cp -r $PPSSPP_PSP_DIR/SAVEDATA $BACKUPS/ppsspp
+cp -r $PPSSPP_PSP_DIR/PPSSPP_STATE $BACKUPS/ppsspp
+
+mkdir -p $BACKUPS/ppsspp/SYSTEM
+cp $PPSSPP_PSP_DIR/SYSTEM/ppsspp_retroachievements.dat $BACKUPS/ppsspp/SYSTEM/ppsspp_retroachievements.dat
+

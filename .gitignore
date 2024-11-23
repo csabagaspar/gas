@@ -1,9 +1,5 @@
 node_modules
 
-!backups
-backups/*
-!backups/.gitkeep
-
 !cache
 cache/*
 !cache/.gitkeep
