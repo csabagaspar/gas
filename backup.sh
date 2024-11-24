@@ -7,3 +7,4 @@
 ./emulators/pcsx2/backup.sh
 ./emulators/duckstation/backup.sh
 ./emulators/dolphin/backup.sh
+./emulators/primehack/backup.sh

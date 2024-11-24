@@ -7,3 +7,4 @@
 ./emulators/pcsx2/restore.sh
 ./emulators/duckstation/restore.sh
 ./emulators/dolphin/restore.sh
+./emulators/primehack/restore.sh

@@ -11,4 +11,5 @@
 ./emulators/duckstation/install.sh
 ./emulators/pcsx2/install.sh
 ./emulators/dolphin/install.sh
+./emulators/primehack/install.sh
 
