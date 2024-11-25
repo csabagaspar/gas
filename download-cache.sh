@@ -79,9 +79,6 @@ fi
 
 #===================================================================================
 #cemu
-if [ ! -f "$CACHE/$CEMU_APP_NAME" ]; then
-  wget -P "$CACHE" $CEMU_DONWLOAD_URL
-fi
 if [ ! -f "$CACHE/$CEMU_GRAPHIC_PACKS_LATEST" ]; then
   wget -P "$CACHE" $CEMU_GRAPHIC_PACKS_DOWNLOAD_URL
 fi

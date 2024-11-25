@@ -7,27 +7,21 @@ CURRENT_ABSOLUTE_DIR=$(
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
 CACHE=$CURRENT_ABSOLUTE_DIR/../../cache
 
-#Copy image
-mkdir -p $APPS_DIR
-cp $CACHE/$CEMU_APP_NAME $APPS_DIR
-chmod a+x $APPS_DIR/$CEMU_APP_NAME
+flatpak install --user info.cemu.Cemu
+flatpak update --user info.cemu.Cemu
 
-#cemu.sh
-cp $CURRENT_ABSOLUTE_DIR/configs/cemu.sh $APPS_DIR
+mkdir -p "$CEMU_DIR/config/Cemu"
+cp $CURRENT_ABSOLUTE_DIR/configs/settings.$SYSTEM.xml $CEMU_DIR/config/Cemu
+mv $CEMU_DIR/config/Cemu/settings.$SYSTEM.xml $CEMU_DIR/config/Cemu/settings.xml
 
-#~/.local/share/Cemu
-mkdir -p $HOME/.local/share/Cemu
-mkdir -p $HOME/.local/share/Cemu/graphicPacks/downloadedGraphicPacks
-cp $CURRENT_ABSOLUTE_DIR/files/keys.txt $HOME/.local/share/Cemu
-unzip -q -o "$CACHE/$CEMU_GRAPHIC_PACKS_LATEST" -d "$HOME/.local/share/Cemu/graphicPacks/downloadedGraphicPacks/"
+mkdir -p "$CEMU_DIR/data/Cemu"
+cp $CURRENT_ABSOLUTE_DIR/files/keys.txt $CEMU_DIR/data/Cemu
 
-#~/.config/Cemu
-mkdir -p $HOME/.config/Cemu
-mkdir -p $HOME/.config/Cemu/controllerProfiles
-cp $CURRENT_ABSOLUTE_DIR/configs/controllerProfiles/*.xml $HOME/.config/Cemu/controllerProfiles
+mkdir -p "$CEMU_DIR/config/Cemu/controllerProfiles"
+cp -r "$CURRENT_ABSOLUTE_DIR/configs/controllerProfiles/." "$CEMU_DIR/config/Cemu/controllerProfiles"
 
-#~/.config/Cemu/settings.xml
-cp $CURRENT_ABSOLUTE_DIR/configs/settings.$SYSTEM.xml $HOME/.config/Cemu
-mv $HOME/.config/Cemu/settings.$SYSTEM.xml $HOME/.config/Cemu/settings.xml
+mkdir -p "$CEMU_DIR/data/Cemu/graphicPacks/downloadedGraphicPacks"
+unzip -q -o "$CACHE/$CEMU_GRAPHIC_PACKS_LATEST" -d "$CEMU_DIR/data/Cemu/graphicPacks/downloadedGraphicPacks/"
 
-#~/.cache/Cemu
+
+

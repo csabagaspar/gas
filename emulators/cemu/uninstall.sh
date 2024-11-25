@@ -6,9 +6,8 @@ CURRENT_ABSOLUTE_DIR=$(
 )
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
 
-rm $APPS_DIR/$CEMU_APP_NAME
-rm $APPS_DIR/cemu.sh
 
-rm -rf $HOME/.local/share/Cemu
-rm -rf $HOME/.config/Cemu
-rm -rf $HOME/.cache/Cemu
+flatpak uninstall info.cemu.Cemu
+
+rm -rf $CEMU_DIR
+
