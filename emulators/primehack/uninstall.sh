@@ -6,5 +6,4 @@ CURRENT_ABSOLUTE_DIR=$(
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
 
 flatpak uninstall io.github.shiiion.primehack
-rm $APPS_DIR/primehack.sh
 rm -rf $PRIMEHACK_DIR

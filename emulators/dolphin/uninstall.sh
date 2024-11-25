@@ -6,5 +6,5 @@ CURRENT_ABSOLUTE_DIR=$(
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
 
 flatpak uninstall org.DolphinEmu.dolphin-emu
-rm $APPS_DIR/dolphin.sh
+
 rm -rf $DOLPHIN_DIR

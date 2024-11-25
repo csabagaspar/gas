@@ -7,6 +7,5 @@ CURRENT_ABSOLUTE_DIR=$(
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
 
 flatpak uninstall org.duckstation.DuckStation
-rm $APPS_DIR/duck.sh
 rm -rf $DUCK_DIR
 

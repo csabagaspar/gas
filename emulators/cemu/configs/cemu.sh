@@ -1,6 +1,0 @@
-#!/bin/bash
-
-CEMU_MAIN_LATEST=Cemu-2.2-x86_64.AppImage
-CEMU_APP_NAME=$CEMU_MAIN_LATEST
-
-$HOME/apps/$CEMU_APP_NAME

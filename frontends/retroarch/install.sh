@@ -19,9 +19,6 @@ mkdir -p $RA_CONFIG_DIR
 mkdir -p $RA_CORES_DIR
 mkdir -p $RA_SYSTEM_DIR
 
-#ra.sh
-cp $CURRENT_ABSOLUTE_DIR/configs/ra.sh $APPS_DIR
-
 #scummvm_custom.sh
 cp $CURRENT_ABSOLUTE_DIR/configs/scummvm_custom.sh $APPS_DIR
 
