@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <string name="ROMDirectory" value="/run/media/mmcblk0p1/roms" />
-<string name="Theme" value="slate-es-de" />
+<string name="Theme" value="slate-es-de-custom" />
 <string name="ThemeAspectRatio" value="automatic" />
 <string name="ThemeColorScheme" value="dark" />
 <string name="ThemeFontSize" value="medium" />

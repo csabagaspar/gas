@@ -10,4 +10,5 @@
         <rule type="staticpath">
             <entry>~/apps/scummvm_custom*.sh</entry>
         </rule>
+    </emulator>
 </ruleList>
