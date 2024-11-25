@@ -6,8 +6,5 @@ CURRENT_ABSOLUTE_DIR=$(
 )
 source $CURRENT_ABSOLUTE_DIR/../../vars.env
 
-
-flatpak uninstall net.lutris.Lutris
-
-rm $APPS_DIR/lutris.sh
-rm -rf $LUTRIS_DIR
+flatpak install --user com.github.tchx84.Flatseal
+flatpak update --user com.github.tchx84.Flatseal

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+./tools/protontricks/uninstall.sh
+./tools/flatseal/uninstall.sh
+./tools/protonup-qt/uninstall.sh
+
 ./emulators/yuzu/uninstall.sh
 ./emulators/ppsspp/uninstall.sh
 ./emulators/cemu/uninstall.sh

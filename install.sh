@@ -1,5 +1,9 @@
 #!/bin/bash
 
+./tools/protontricks/install.sh
+./tools/flatseal/install.sh
+./tools/protonup-qt/install.sh
+
 ./frontends/retroarch/install.sh
 ./frontends/es-de/install.sh
 ./frontends/lutris/install.sh
