@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <string name="ROMDirectory" value="/home/csabagaspar/roms" />
-<string name="Theme" value="iconic-es-de-main" />
+<string name="Theme" value="slate-es-de" />
 <string name="ThemeAspectRatio" value="automatic" />
-<string name="ThemeColorScheme" value="dark-default" />
+<string name="ThemeColorScheme" value="dark" />
 <string name="ThemeFontSize" value="medium" />
-<string name="ThemeLanguage" value="none" />
+<string name="ThemeLanguage" value="automatic" />
 <string name="ThemeTransitions" value="automatic" />
-<string name="ThemeVariant" value="grid-boxart" />
+<string name="ThemeVariant" value="withoutVideos" />
 <string name="Scraper" value="screenscraper" />
 <string name="ScraperLanguage" value="en" />
 <string name="ScraperPasswordScreenScraper" value="" />
