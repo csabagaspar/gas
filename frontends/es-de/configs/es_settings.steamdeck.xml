@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <string name="ROMDirectory" value="/run/media/mmcblk0p1/roms" />
-<string name="Theme" value="slate-es-de-custom" />
+<string name="Theme" value="codywheel-es-de-custom" />
 <string name="ThemeAspectRatio" value="automatic" />
-<string name="ThemeColorScheme" value="dark" />
+<string name="ThemeColorScheme" value="chill" />
 <string name="ThemeFontSize" value="medium" />
 <string name="ThemeLanguage" value="automatic" />
 <string name="ThemeTransitions" value="automatic" />
-<string name="ThemeVariant" value="withoutVideos" />
+<string name="ThemeVariant" value="gamegrid" />
 <string name="Scraper" value="screenscraper" />
 <string name="ScraperLanguage" value="en" />
 <string name="ScraperPasswordScreenScraper" value="" />
