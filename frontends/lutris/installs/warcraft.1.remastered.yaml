@@ -1,12 +1,12 @@
-name: Warcraft 2
-game_slug: warcraft2
+name: Warcraft I Remastered
+game_slug: warcraft1-remastered
 slug: installer_identifier
 version: installer
 runner: wine
 script:
   variables:
-    FOLDER: warcraft2
-    EXE: Warcraft II BNE.exe
+    FOLDER: warcraft1-remastered
+    EXE: Warcraft.exe
   files:
     - zipfile: "N/A: Please select the ZIP file"
   game:

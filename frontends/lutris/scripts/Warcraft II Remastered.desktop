@@ -1,0 +1,7 @@
+
+[Desktop Entry]
+Type=Application
+Name=Warcraft II Remastered
+Icon=lutris_warcraft-ii-remastered
+Exec=env LUTRIS_SKIP_INIT=1 flatpak run net.lutris.Lutris lutris:rungame/warcraft2-remastered
+Categories=Game
