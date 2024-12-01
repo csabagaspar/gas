@@ -59,11 +59,15 @@ cp $CACHE/$RA_MAME2010_CATVER $RA_SYSTEM_DIR/mame2010/
 #ep128emu
 mkdir -p $RA_SYSTEM_DIR/ep128emu/roms
 mkdir -p $RA_SYSTEM_DIR/ep128emu/config
-unzip -q -o "$CACHE/$RA_EP128EMU_SYSTEM" -d "$RA_SYSTEM_DIR/ep128emu/roms"
+unzip -q -o "$CACHE/$RA_EP128EMU_SYSTEM" -d "$RA_SYSTEM_DIR/ep128emu/rom"
 cp $CURRENT_ABSOLUTE_DIR/configs/tvc.ep128cfg $RA_SYSTEM_DIR/ep128emu/config
 
 #gearcoleco
 cp $CACHE/$RA_GEARCOLECO_SYSTEM $RA_SYSTEM_DIR
+
+#commodore-vice
+mkdir -p $RA_SYSTEM_DIR/vice
+unzip -q -o "$CACHE/$RA_COMMODORE_VICE_SYSTEM" -d "$RA_SYSTEM_DIR/vice"
 
 #CORE
 for CORE in "${RA_CORES[@]}"; do

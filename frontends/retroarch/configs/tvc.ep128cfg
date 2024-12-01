@@ -29,12 +29,12 @@
 # Use the quotes, i.e.
 # joypad.user1 "EXT1"
 
-joypad.user1 "INTERNAL"
-joypad.user2 ""
-joypad.user3 ""
-joypad.user4 ""
-joypad.user5 ""
-joypad.user6 ""
+#joypad.user1 "INTERNAL"
+#joypad.user2 ""
+#joypad.user3 ""
+#joypad.user4 ""
+#joypad.user5 ""
+#joypad.user6 ""
 
 # Joypad detailed configuration for user 1. Example:
 # joypad.x "1"
@@ -60,22 +60,22 @@ joypad.user6 ""
 # Special ep128emu-core functions:
 #   zoom, info, none ("none" removes the core default setting)
 
-joypad.a ""
-joypad.b ""
-joypad.x ""
-joypad.y "none"
-joypad.l "none"
-joypad.r "none"
-joypad.l2 "none"
-joypad.r2 "none"
-joypad.l3 ""
-joypad.r3 ""
-joypad.start ""
-joypad.select ""
-joypad.up ""
-joypad.down ""
-joypad.left ""
-joypad.right ""
+#joypad.a ""
+#joypad.b ""
+#joypad.x ""
+#joypad.y "none"
+#joypad.l "none"
+#joypad.r "none"
+#joypad.l2 "none"
+#joypad.r2 "none"
+#joypad.l3 ""
+#joypad.r3 ""
+#joypad.start ""
+#joypad.select ""
+#joypad.up ""
+#joypad.down ""
+#joypad.left ""
+#joypad.right ""
 
 # Content file name. Use in case of disk images to automatically load a program.
 # Extra function: in case of EP tape and file types, which are normally started with
@@ -117,22 +117,22 @@ machineDetailedType ""
 # memory.rom.42.offset 32768
 
 #tvc
-memory.ram.size 128
-memory.rom.00.file "tvc22_sys.rom"
-memory.rom.00.offset 0
-memory.rom.01.file "tvc_dos12c.rom"
-memory.rom.01.offset 0
-memory.rom.02.file "tvc22_ext.rom"
-memory.rom.02.offset 0
-memory.rom.03.file "tvc_dos12d.rom"
-memory.rom.03.offset 0
-memory.rom.04.file ""
-memory.rom.04.offset 0
-sdext.enabled No
-sdext.romFile ""
-vm.cpuClockFrequency 3125000
-vm.enableFileIO No
-vm.enableMemoryTimingEmulation Yes
-vm.soundClockFrequency 390625
-vm.videoClockFrequency 1562500
+#memory.ram.size 128
+#memory.rom.00.file "tvc22_sys.rom"
+#memory.rom.00.offset 0
+#memory.rom.01.file "tvc_dos12c.rom"
+#memory.rom.01.offset 0
+#memory.rom.02.file "tvc22_ext.rom"
+#memory.rom.02.offset 0
+#memory.rom.03.file "tvc_dos12d.rom"
+#memory.rom.03.offset 0
+#memory.rom.04.file ""
+#memory.rom.04.offset 0
+#sdext.enabled No
+#sdext.romFile ""
+#vm.cpuClockFrequency 3125000
+#vm.enableFileIO No
+#vm.enableMemoryTimingEmulation Yes
+#vm.soundClockFrequency 390625
+#vm.videoClockFrequency 1562500
 

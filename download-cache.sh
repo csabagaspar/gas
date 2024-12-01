@@ -60,6 +60,10 @@ fi
 if [ ! -f "$CACHE/$RA_GEARCOLECO_SYSTEM" ]; then
   wget -O "$CACHE/$RA_GEARCOLECO_SYSTEM" "$RA_GEARCOLECO_SYSTEM_DOWNLOAD_URL"
 fi
+#commodore-vice
+if [ ! -f "$CACHE/$RA_COMMODORE_VICE_SYSTEM" ]; then
+  wget -O "$CACHE/$RA_COMMODORE_VICE_SYSTEM" "$RA_COMMODORE_VICE_SYSTEM_DOWNLOAD_URL"
+fi
 
 #===================================================================================
 #es-de
