@@ -1,0 +1,45 @@
+description: ''
+game_slug: teknoparrot
+gogslug: ''
+humblestoreid: ''
+installer_slug: teknoparrot-100140
+name: TeknoParrot
+notes: ''
+runner: wine
+script:
+  files:
+  - archive: https://lutris.nyc3.digitaloceanspaces.com/runners/teknoparrot/TeknoParrot_1.0.0.140.rar
+  game:
+    exe: $GAMEDIR/drive_c/Program Files/teknoparrot/TeknoParrotUi.exe
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      app: vcrun2010
+      description: Installing Visual C++ Runtime 2010
+      name: winetricks
+  - task:
+      app: dotnet462
+      description: Installing .NET 4.62
+      name: winetricks
+  - extract:
+      description: Extracting TeknoParrot
+      dst: $GAMEDIR/drive_c/Program Files/teknoparrot
+      file: archive
+  - write_file:
+      content: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<ParrotData xmlns:xsi=\"\
+        http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"\
+        >\n\t<UseSto0ZDrivingHack>false</UseSto0ZDrivingHack>\n\t<StoozPercent>0</StoozPercent>\n\
+        \t<FullAxisGas>false</FullAxisGas>\n\t<FullAxisBrake>false</FullAxisBrake>\n\
+        \t<ReverseAxisGas>false</ReverseAxisGas>\n\t<ReverseAxisBrake>false</ReverseAxisBrake>\n\
+        \t<ExitGameKey>0x1B</ExitGameKey>\n\t<PauseGameKey>0x13</PauseGameKey>\n\t\
+        <SaveLastPlayed>false</SaveLastPlayed>\n\t<UseDiscordRPC>false</UseDiscordRPC>\n\
+        \t<SilentMode>false</SilentMode>\n\t<CheckForUpdates>true</CheckForUpdates>\n\
+        \t<ConfirmExit>false</ConfirmExit>\n\t<DownloadIcons>true</DownloadIcons>\n\
+        \t<UiDisableHardwareAcceleration>true</UiDisableHardwareAcceleration>\n\t\
+        <UiColour>lightblue</UiColour>\n\t<UiDarkMode>true</UiDarkMode>\n\t<UiHolidayThemes>true</UiHolidayThemes>\n\
+        </ParrotData>"
+      file: $GAMEDIR/drive_c/Program Files/teknoparrot/ParrotData.xml
+slug: teknoparrot-100140
+steamid: null
+version: 1.0.0.140
+year: 2021

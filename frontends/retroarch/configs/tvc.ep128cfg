@@ -115,3 +115,24 @@ machineDetailedType ""
 # memory.rom.41.offset 16384
 # memory.rom.42.file "spemu128.rom"
 # memory.rom.42.offset 32768
+
+#tvc
+memory.ram.size 128
+memory.rom.00.file "tvc22_sys.rom"
+memory.rom.00.offset 0
+memory.rom.01.file "tvc_dos12c.rom"
+memory.rom.01.offset 0
+memory.rom.02.file "tvc22_ext.rom"
+memory.rom.02.offset 0
+memory.rom.03.file "tvc_dos12d.rom"
+memory.rom.03.offset 0
+memory.rom.04.file ""
+memory.rom.04.offset 0
+sdext.enabled No
+sdext.romFile ""
+vm.cpuClockFrequency 3125000
+vm.enableFileIO No
+vm.enableMemoryTimingEmulation Yes
+vm.soundClockFrequency 390625
+vm.videoClockFrequency 1562500
+
