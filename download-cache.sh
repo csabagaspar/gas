@@ -56,6 +56,10 @@ fi
 if [ ! -f "$CACHE/$RA_EP128EMU_SYSTEM" ]; then
   wget -O "$CACHE/$RA_EP128EMU_SYSTEM" "$RA_EP128EMU_SYSTEM_DOWNLOAD_URL"
 fi
+#colecovision
+if [ ! -f "$CACHE/$RA_GEARCOLECO_SYSTEM" ]; then
+  wget -O "$CACHE/$RA_GEARCOLECO_SYSTEM" "$RA_GEARCOLECO_SYSTEM_DOWNLOAD_URL"
+fi
 
 #===================================================================================
 #es-de

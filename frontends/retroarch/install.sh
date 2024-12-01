@@ -62,6 +62,9 @@ mkdir -p $RA_SYSTEM_DIR/ep128emu/config
 unzip -q -o "$CACHE/$RA_EP128EMU_SYSTEM" -d "$RA_SYSTEM_DIR/ep128emu/roms"
 cp $CURRENT_ABSOLUTE_DIR/configs/tvc.ep128cfg $RA_SYSTEM_DIR/ep128emu/config
 
+#gearcoleco
+cp $CACHE/$RA_GEARCOLECO_SYSTEM $RA_SYSTEM_DIR
+
 #CORE
 for CORE in "${RA_CORES[@]}"; do
   unzip -q -o "$CACHE/$CORE.so.zip" -d "$RA_CORES_DIR"
