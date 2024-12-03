@@ -69,6 +69,14 @@ cp $CACHE/$RA_GEARCOLECO_SYSTEM $RA_SYSTEM_DIR
 mkdir -p $RA_SYSTEM_DIR/vice
 unzip -q -o "$CACHE/$RA_COMMODORE_VICE_SYSTEM" -d "$RA_SYSTEM_DIR/vice"
 
+#segacd
+mkdir -p $RA_SYSTEM_DIR
+unzip -q -o "$CACHE/$RA_SEGACD_SYSTEM" -d "$RA_SYSTEM_DIR"
+
+#puae
+mkdir -p $RA_SYSTEM_DIR
+unzip -q -o "$CACHE/$RA_PUAE_SYSTEM" -d "$RA_SYSTEM_DIR"
+
 #CORE
 for CORE in "${RA_CORES[@]}"; do
   unzip -q -o "$CACHE/$CORE.so.zip" -d "$RA_CORES_DIR"

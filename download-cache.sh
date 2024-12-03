@@ -64,6 +64,15 @@ fi
 if [ ! -f "$CACHE/$RA_COMMODORE_VICE_SYSTEM" ]; then
   wget -O "$CACHE/$RA_COMMODORE_VICE_SYSTEM" "$RA_COMMODORE_VICE_SYSTEM_DOWNLOAD_URL"
 fi
+#segacd
+if [ ! -f "$CACHE/$RA_SEGACD_SYSTEM" ]; then
+  wget -O "$CACHE/$RA_SEGACD_SYSTEM" "$RA_SEGACD_SYSTEM_DOWNLOAD_URL"
+fi
+#puae
+if [ ! -f "$CACHE/$RA_PUAE_SYSTEM" ]; then
+  wget -O "$CACHE/$RA_PUAE_SYSTEM" "$RA_PUAE_SYSTEM_DOWNLOAD_URL"
+fi
+
 
 #===================================================================================
 #es-de
