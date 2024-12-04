@@ -72,7 +72,9 @@ fi
 if [ ! -f "$CACHE/$RA_PUAE_SYSTEM" ]; then
   wget -O "$CACHE/$RA_PUAE_SYSTEM" "$RA_PUAE_SYSTEM_DOWNLOAD_URL"
 fi
-
+if [ ! -f "$CACHE/$RA_UAE_DATA" ]; then
+  wget -O "$CACHE/$RA_UAE_DATA" "$RA_UAE_DATA_DOWNLOAD_URL"
+fi
 
 #===================================================================================
 #es-de

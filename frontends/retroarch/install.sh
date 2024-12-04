@@ -77,6 +77,9 @@ unzip -q -o "$CACHE/$RA_SEGACD_SYSTEM" -d "$RA_SYSTEM_DIR"
 mkdir -p $RA_SYSTEM_DIR
 unzip -q -o "$CACHE/$RA_PUAE_SYSTEM" -d "$RA_SYSTEM_DIR"
 
+mkdir -p $RA_SYSTEM_DIR/uae_data
+unzip -q -o "$CACHE/$RA_UAE_DATA" -d "$RA_SYSTEM_DIR/uae_data"
+
 #CORE
 for CORE in "${RA_CORES[@]}"; do
   unzip -q -o "$CACHE/$CORE.so.zip" -d "$RA_CORES_DIR"
