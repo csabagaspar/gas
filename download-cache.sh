@@ -75,6 +75,23 @@ fi
 if [ ! -f "$CACHE/$RA_UAE_DATA" ]; then
   wget -O "$CACHE/$RA_UAE_DATA" "$RA_UAE_DATA_DOWNLOAD_URL"
 fi
+#flycast
+if [ ! -f "$CACHE/$RA_FLYCAST_SYSTEM" ]; then
+  wget -O "$CACHE/$RA_FLYCAST_SYSTEM" "$RA_FLYCAST_SYSTEM_DOWNLOAD_URL"
+fi
+#atari
+if [ ! -f "$CACHE/$RA_ATARI5200_SYSTEM" ]; then
+  wget -O "$CACHE/$RA_ATARI5200_SYSTEM" "$RA_ATARI5200_SYSTEM_DOWNLOAD_URL"
+fi
+if [ ! -f "$CACHE/$RA_ATARI7800_SYSTEM" ]; then
+  wget -O "$CACHE/$RA_ATARI7800_SYSTEM" "$RA_ATARI7800_SYSTEM_DOWNLOAD_URL"
+fi
+if [ ! -f "$CACHE/$RA_ATARILYNX_SYSTEM" ]; then
+  wget -O "$CACHE/$RA_ATARILYNX_SYSTEM" "$RA_ATARILYNX_SYSTEM_DOWNLOAD_URL"
+fi
+if [ ! -f "$CACHE/$RA_ATARIST_SYSTEM" ]; then
+  wget -O "$CACHE/$RA_ATARIST_SYSTEM" "$RA_ATARIST_SYSTEM_DOWNLOAD_URL"
+fi
 
 #===================================================================================
 #es-de
