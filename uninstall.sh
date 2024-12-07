@@ -11,10 +11,10 @@
 ./emulators/pcsx2/uninstall.sh
 ./emulators/dolphin/uninstall.sh
 ./emulators/primehack/uninstall.sh
+./emulators/dosbox-x/uninstall.sh
 
 ./frontends/retroarch/uninstall.sh
 ./frontends/es-de/uninstall.sh
 ./frontends/lutris/uninstall.sh
 ./frontends/steam/uninstall.sh
-
 

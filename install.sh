@@ -16,4 +16,5 @@
 ./emulators/pcsx2/install.sh
 ./emulators/dolphin/install.sh
 ./emulators/primehack/install.sh
+./emulators/dosbox-x/install.sh
 
