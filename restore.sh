@@ -8,3 +8,4 @@
 ./emulators/duckstation/restore.sh
 ./emulators/dolphin/restore.sh
 ./emulators/primehack/restore.sh
+./emulators/lime3ds/restore.sh

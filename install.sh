@@ -17,4 +17,4 @@
 ./emulators/dolphin/install.sh
 ./emulators/primehack/install.sh
 ./emulators/dosbox-x/install.sh
-
+./emulators/lime3ds/install.sh

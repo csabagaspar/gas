@@ -12,6 +12,7 @@
 ./emulators/dolphin/uninstall.sh
 ./emulators/primehack/uninstall.sh
 ./emulators/dosbox-x/uninstall.sh
+./emulators/lime3ds/uninstall.sh
 
 ./frontends/retroarch/uninstall.sh
 ./frontends/es-de/uninstall.sh

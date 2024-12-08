@@ -8,3 +8,4 @@
 ./emulators/duckstation/backup.sh
 ./emulators/dolphin/backup.sh
 ./emulators/primehack/backup.sh
+./emulators/lime3ds/backup.sh
