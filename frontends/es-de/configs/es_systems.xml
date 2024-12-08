@@ -270,7 +270,7 @@
         <platform>ps2</platform>
         <theme>ps2</theme>
     </system>
-        <system>
+    <system>
         <name>n3ds</name>
         <fullname>Nintendo 3DS</fullname>
         <path>%ROMPATH%/n3ds</path>
