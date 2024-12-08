@@ -113,7 +113,7 @@
 <string name="ApplicationUpdaterLastCheck" value="20241127T103915" />
 <string name="CollectionCustomGrouping" value="unthemed" />
 <string name="CollectionSystemsAuto" value="all" />
-<string name="CollectionSystemsCustom" value="Diablo,Mega Man,Metal Slug,Mortal Kombat,Rogue Squadron,Street Fighter,Strike" />
+<string name="CollectionSystemsCustom" value="Ace Combat,Diablo,God of war,Grand Theft Auto,Mario,Mega Man,Metal Slug,Mortal Kombat,Rogue Squadron,Street Fighter,Strike,Warcraft,Zelda" />
 <string name="DefaultSortOrder" value="name, ascending" />
 <string name="InputControllerType" value="xbox" />
 <string name="KeyboardQuitShortcut" value="AltF4" />
