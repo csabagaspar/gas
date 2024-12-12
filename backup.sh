@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ./frontends/retroarch/backup.sh
-./frontends/es-de/backup.sh
+#./frontends/es-de/backup.sh
 
 ./emulators/ppsspp/backup.sh
 ./emulators/pcsx2/backup.sh

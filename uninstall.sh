@@ -16,7 +16,7 @@
 ./emulators/lime3ds/uninstall.sh
 
 ./frontends/retroarch/uninstall.sh
-./frontends/es-de/uninstall.sh
+#./frontends/es-de/uninstall.sh
 ./frontends/lutris/uninstall.sh
 ./frontends/steam/uninstall.sh
 

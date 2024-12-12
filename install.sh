@@ -6,7 +6,7 @@
 ./tools/steam-rom-manager/install.sh
 
 ./frontends/retroarch/install.sh
-./frontends/es-de/install.sh
+#./frontends/es-de/install.sh
 ./frontends/lutris/install.sh
 ./frontends/steam/install.sh
 
