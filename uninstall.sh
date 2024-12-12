@@ -3,6 +3,7 @@
 ./tools/protontricks/uninstall.sh
 ./tools/flatseal/uninstall.sh
 ./tools/protonup-qt/uninstall.sh
+./tools/steam-rom-manager/uninstall.sh
 
 ./emulators/yuzu/uninstall.sh
 ./emulators/ppsspp/uninstall.sh

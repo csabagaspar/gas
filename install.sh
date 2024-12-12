@@ -3,6 +3,7 @@
 ./tools/protontricks/install.sh
 ./tools/flatseal/install.sh
 ./tools/protonup-qt/install.sh
+./tools/steam-rom-manager/install.sh
 
 ./frontends/retroarch/install.sh
 ./frontends/es-de/install.sh
