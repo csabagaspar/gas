@@ -133,4 +133,8 @@ fi
 if [ ! -f "$CACHE/$PCSX2_BIOS_NAME" ]; then
   wget -O "$CACHE/$PCSX2_BIOS_NAME" "$PCSX2_BIOS_DOWNLOAD_URL"
 fi
+#edecky loader
+if [ ! -f "$CACHE/$DECKY_LOADER" ]; then
+  wget -O "$CACHE/$DECKY_LOADER" "$DECKY_LOADER_DOWNLOAD_URL"
+fi
 
