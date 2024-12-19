@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+./tools/steam-rom-manager/backup.sh
 
 ./frontends/retroarch/backup.sh
 #./frontends/es-de/backup.sh

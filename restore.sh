@@ -2,6 +2,7 @@
 #
 ./frontends/retroarch/restore.sh
 #./frontends/es-de/restore.sh
+./tools/steam-rom-manager/restore.sh
 
 ./emulators/ppsspp/restore.sh
 ./emulators/pcsx2/restore.sh
