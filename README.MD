@@ -1,1 +1,1 @@
-GAS - GAme Scripts
+GAS - GAme Scripts ( Scripts for video games)
